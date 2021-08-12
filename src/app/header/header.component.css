@@ -1,0 +1,79 @@
+header {
+    padding: 10px;
+}
+.togglebtn {
+    padding-top: 15px;
+    position: absolute;
+    z-index: 5;
+    margin-left: 15px;
+}
+.togglebtn button {
+    border: 1px solid #755137;
+    color: #755137;
+    line-height: 1;
+}
+ul.profile-wrap {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+li.call-us {
+    margin-right: 15px;
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #69442a;
+}
+li.profile {
+    display: flex;
+    padding: 0 10px;
+    text-align: right;
+}
+.call-us span {
+    font-size: 16px;
+    font-family: 'open_sanssemibold';
+}
+.profile-name {
+    color: #1ab394;
+    font-weight: 600;
+}
+.grn-name {
+    color: #333;
+}
+.profile img {
+    width: 30px;
+    border-radius: 50%;
+    float: right;
+    margin: 0 0 0 10px;
+}
+.profile-update {
+    position: absolute;
+    top: 50px;
+    z-index: 99;
+    background: #755137;
+    right: 0;
+    display: none;
+    box-shadow: 0 0 2px 2px #1f1610;
+}
+.profile-update ul {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+.profile-update ul li {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #523723;
+}
+.profile-update ul li a {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 7px!important;
+    min-height: auto;
+}
+.profile:hover .profile-update {
+    display: block;
+}
