@@ -1,0 +1,55 @@
+.main-containt {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    margin: 0 40px 40px;
+    background: #ffffff;
+    /* height: 100%; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0 4px 1px #c1c1c1;
+}
+#content {
+    width: 100%;
+    padding: 0px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+.stats {
+    background: #ffffff;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+.custm-table{margin-top: 20px;}
+.custm-table thead th{text-align: center;background: #1F4388;color: #fff;font-weight: normal;}
+.custm-table tbody td{text-align: center;}
+.custm-table tbody td:nth-child(2){text-align: left;}
+.custm-table tbody td:nth-child(3){text-align: left;}
+.custm-table tbody td .mat-icon{cursor: pointer;}
+.form-group label {font-family: "open_sanssemibold";
+    font-size: 14px;}
+    .calander .input-group-btn{position: relative;}
+    .calender .btn{    background: #dadada;
+        border-radius: 0;
+        height: 38px;}
+        .avail{display: flex;align-items: center;color: #008000;}
+        .punchange table thead tr th{background: #1F4388;font-weight: normal;color:#fff;text-align: center;}
+        .punchange table tr th,.punchange table tr td{padding:1px 10px;font-size: 14px;}
+        .blue-btn-large {
+            background: linear-gradient( 
+        45deg
+         , #8e5847, #c36d00);
+            border: none;
+            padding: 8px 25px;
+            color: #fff;
+            font-family: 'open_sanssemibold';
+            opacity: 0.85;
+        }.blue-btn-large:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+        
